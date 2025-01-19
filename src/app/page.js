@@ -1,10 +1,11 @@
-import PlainLayout from "@/components/Master/PlainLayout";
-import Image from "next/image";
-
-export default function Home() {
+ import React from 'react';
+ 
+ const Page = () => {
   return (
-   <PlainLayout>
-    this is the home page
-   </PlainLayout>
+    <div>
+      <h1>Page</h1>
+    </div>
   );
-}
+ };
+ 
+ export default Page;
