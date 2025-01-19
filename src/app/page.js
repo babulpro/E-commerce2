@@ -12,7 +12,7 @@ import React from 'react';
   return (
     <div>
       <MainNavBar data={data.category}/>
-      <h1>Page</h1>
+      <h1 className='mt-44'>Page</h1>
     </div>
   );
  };
