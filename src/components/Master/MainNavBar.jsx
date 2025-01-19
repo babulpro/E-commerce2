@@ -31,7 +31,7 @@ const MainNavBar = ({data}) => {
                         {
                                 data.length > 0 && data.map((item,index)=>(
                                     <li key={index}>
-                                        <Link href={"/"} key={item._id}>{item.name}</Link>
+                                        <Link href={`/product/${item._id}`} key={item._id}>{item.name}</Link>
                                     </li>
                                 ))
                             }
@@ -53,7 +53,7 @@ const MainNavBar = ({data}) => {
                     {
                                 data.length > 0 && data.map((item,index)=>(
                                     <li key={index}>
-                                        <Link href={"/"} key={item._id}>{item.name}</Link>
+                                        <Link href={`/product/${item._id}`} key={item._id}>{item.name}</Link>
                                     </li>
                                 ))
                             }
