@@ -4,7 +4,7 @@ import React from 'react';
  
  
 const MainNavBar = ({data}) => {
-    console.log(data)
+
     return (
         <div className=''>
             <div className="navbar bg-base-100 fixed w-full z-50 top-0">
